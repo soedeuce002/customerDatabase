@@ -34,6 +34,11 @@ header {
    text-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
 
+#social:hover{
+  color: black;
+  text-shadow: none;
+}
+
 #name, #address, #social{
   text-align: center;
   font-size: 14px;
