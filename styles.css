@@ -3,6 +3,7 @@
 body{
   font-family: 'Saira Condensed', sans-serif;
   line-height: 80%;
+  background-color: ivory;
 }
 
 section{
@@ -32,7 +33,10 @@ header {
   color: transparent;
    text-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
-
+#social:hover{
+  color: black;
+  text-shadow: none;
+}
 #name, #address, #social{
   text-align: center;
   font-size: 14px;
