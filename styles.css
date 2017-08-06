@@ -1,0 +1,43 @@
+
+
+body{
+  font-family: 'Saira Condensed', sans-serif;
+  line-height: 80%;
+}
+
+section{
+  width: 30%;
+}
+
+header {
+  font-family: 'Fjalla One', sans-serif;
+  text-align: center;
+  padding: 20px;
+  padding-bottom: 50px;
+  font-size: 26px;
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#image{
+  display: flex;
+  justify-content: center;
+}
+
+#social{
+  color: transparent;
+   text-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+#name, #address, #social{
+  text-align: center;
+  font-size: 14px;
+}
+
+#name h4{
+  border-bottom: 2px solid #3CB371;
+}
